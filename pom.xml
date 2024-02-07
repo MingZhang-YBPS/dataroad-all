@@ -24,10 +24,16 @@
         <maven.compiler.target>8</maven.compiler.target>
         <slf4j.version>1.7.30</slf4j.version>
         <guava.version>16.0.1</guava.version>
-        <flink.version>1.13.0</flink.version>
+        <flink.version>1.17.2</flink.version>
         <http.version>4.5.3</http.version>
-        <scala.binary.version>2.11</scala.binary.version>
+        <scala.binary.version>2.12</scala.binary.version>
         <dist.dir>dataroad-dist</dist.dir>
+
+        <!-- 文件拷贝时的编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     </properties>
 
     <dependencyManagement>
